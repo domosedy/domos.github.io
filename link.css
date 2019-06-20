@@ -1,0 +1,52 @@
+
+header{
+  min-width: 960px;
+  max-width: 100%;
+  margin-top: 25px;
+  padding: 0;
+}
+.menu *{
+	margin: 0;
+	padding: 0;
+}
+.menu ul{
+	list-style: none;
+}
+.menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.menu > ul li a{
+	display: block;
+	padding: 20px 152px 20px 160px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+	border: 1px solid #babbbb;
+}
+.menu > ul li{
+	position: relative;
+}
+.menu li a:hover{
+	background: #454547;
+	color: #ffffff;
+}
+.menu li ul{
+	position: absolute;
+	min-width: 230px;
+}
+.menu li> ul li a{
+	text-transform: none;
+	font-size: 18px;
+
+}
+.menu li ul{
+	display: none;
+}
+.menu li:hover > ul{
+	display: block;
+}
+.cc{
+	margin: 35%;
+}
